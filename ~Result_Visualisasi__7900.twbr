@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0525.0851                               -->
+<workbook original-version='18.1' source-build='2022.1.2 (20221.22.0525.0851)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Result' inline='true' name='federated.0zcq24g08m8wyt1gjly9u1ofz7nb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Result' name='textscan.0krk14n0yw7kx31geccs318mb06s'>
+            <connection class='textscan' directory='E:/kuliah/Sem.5/DATA MINING/UAS_TRI HANDAYANI_201112030' filename='Result.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0krk14n0yw7kx31geccs318mb06s' name='Result.csv' table='[Result#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Consequent' ordinal='0' />
+            <column datatype='string' name='Antecedent' ordinal='1' />
+            <column datatype='integer' name='ItemSetSupport' ordinal='2' />
+            <column datatype='real' name='RelativeItemSetSupport%' ordinal='3' />
+            <column datatype='real' name='RuleConfidence%' ordinal='4' />
+            <column datatype='integer' name='AbsoluteBodySetSupport' ordinal='5' />
+            <column datatype='real' name='RelativeBodySetSupport%' ordinal='6' />
+            <column datatype='real' name='RuleLift' ordinal='7' />
+            <column datatype='real' name='RuleLift%' ordinal='8' />
+            <column datatype='integer' name='AbsoluteHeadItemSupport' ordinal='9' />
+            <column datatype='real' name='RelativeHeadItemSupport%' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0krk14n0yw7kx31geccs318mb06s' name='Result.csv' table='[Result#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Consequent' ordinal='0' />
+            <column datatype='string' name='Antecedent' ordinal='1' />
+            <column datatype='integer' name='ItemSetSupport' ordinal='2' />
+            <column datatype='real' name='RelativeItemSetSupport%' ordinal='3' />
+            <column datatype='real' name='RuleConfidence%' ordinal='4' />
+            <column datatype='integer' name='AbsoluteBodySetSupport' ordinal='5' />
+            <column datatype='real' name='RelativeBodySetSupport%' ordinal='6' />
+            <column datatype='real' name='RuleLift' ordinal='7' />
+            <column datatype='real' name='RuleLift%' ordinal='8' />
+            <column datatype='integer' name='AbsoluteHeadItemSupport' ordinal='9' />
+            <column datatype='real' name='RelativeHeadItemSupport%' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Result.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Consequent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Consequent]</local-name>
+            <parent-name>[Result.csv]</parent-name>
+            <remote-alias>Consequent</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Result.csv_5D3D86AB7F0241E1B3CF014E2AB65AEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Antecedent</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Antecedent]</local-name>
+            <parent-name>[Result.csv]</parent-name>
+            <remote-alias>Antecedent</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Result.csv_5D3D86AB7F0241E1B3CF014E2AB65AEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ItemSetSupport</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ItemSetSupport]</local-name>
+            <parent-name>[Result.csv]</parent-name>
+            <remote-alias>ItemSetSupport</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Result.csv_5D3D86AB7F0241E1B3CF014E2AB65AEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RelativeItemSetSupport%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RelativeItemSetSupport%]</local-name>
+            <parent-name>[Result.csv]</parent-name>
+            <remote-alias>RelativeItemSetSupport%</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Result.csv_5D3D86AB7F0241E1B3CF014E2AB65AEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RuleConfidence%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RuleConfidence%]</local-name>
+            <parent-name>[Result.csv]</parent-name>
+            <remote-alias>RuleConfidence%</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Result.csv_5D3D86AB7F0241E1B3CF014E2AB65AEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AbsoluteBodySetSupport</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AbsoluteBodySetSupport]</local-name>
+            <parent-name>[Result.csv]</parent-name>
+            <remote-alias>AbsoluteBodySetSupport</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Result.csv_5D3D86AB7F0241E1B3CF014E2AB65AEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RelativeBodySetSupport%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RelativeBodySetSupport%]</local-name>
+            <parent-name>[Result.csv]</parent-name>
+            <remote-alias>RelativeBodySetSupport%</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Result.csv_5D3D86AB7F0241E1B3CF014E2AB65AEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RuleLift</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RuleLift]</local-name>
+            <parent-name>[Result.csv]</parent-name>
+            <remote-alias>RuleLift</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Result.csv_5D3D86AB7F0241E1B3CF014E2AB65AEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RuleLift%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RuleLift%]</local-name>
+            <parent-name>[Result.csv]</parent-name>
+            <remote-alias>RuleLift%</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Result.csv_5D3D86AB7F0241E1B3CF014E2AB65AEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AbsoluteHeadItemSupport</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AbsoluteHeadItemSupport]</local-name>
+            <parent-name>[Result.csv]</parent-name>
+            <remote-alias>AbsoluteHeadItemSupport</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Result.csv_5D3D86AB7F0241E1B3CF014E2AB65AEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RelativeHeadItemSupport%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RelativeHeadItemSupport%]</local-name>
+            <parent-name>[Result.csv]</parent-name>
+            <remote-alias>RelativeHeadItemSupport%</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Result.csv_5D3D86AB7F0241E1B3CF014E2AB65AEA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Absolute Body Set Support' datatype='integer' name='[AbsoluteBodySetSupport]' role='measure' type='quantitative' />
+      <column caption='Absolute Head Item Support' datatype='integer' name='[AbsoluteHeadItemSupport]' role='measure' type='quantitative' />
+      <column caption='Item Set Support' datatype='integer' name='[ItemSetSupport]' role='measure' type='quantitative' />
+      <column caption='Rule Lift' datatype='real' name='[RuleLift]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Result.csv' datatype='table' name='[__tableau_internal_object_id__].[Result.csv_5D3D86AB7F0241E1B3CF014E2AB65AEA]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Indonesia&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Result.csv' id='Result.csv_5D3D86AB7F0241E1B3CF014E2AB65AEA'>
+            <properties context=''>
+              <relation connection='textscan.0krk14n0yw7kx31geccs318mb06s' name='Result.csv' table='[Result#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Consequent' ordinal='0' />
+                  <column datatype='string' name='Antecedent' ordinal='1' />
+                  <column datatype='integer' name='ItemSetSupport' ordinal='2' />
+                  <column datatype='real' name='RelativeItemSetSupport%' ordinal='3' />
+                  <column datatype='real' name='RuleConfidence%' ordinal='4' />
+                  <column datatype='integer' name='AbsoluteBodySetSupport' ordinal='5' />
+                  <column datatype='real' name='RelativeBodySetSupport%' ordinal='6' />
+                  <column datatype='real' name='RuleLift' ordinal='7' />
+                  <column datatype='real' name='RuleLift%' ordinal='8' />
+                  <column datatype='integer' name='AbsoluteHeadItemSupport' ordinal='9' />
+                  <column datatype='real' name='RelativeHeadItemSupport%' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Bold'>Rekomendasi Produk Kombinasi</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Result' name='federated.0zcq24g08m8wyt1gjly9u1ofz7nb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0zcq24g08m8wyt1gjly9u1ofz7nb'>
+            <column datatype='string' name='[Antecedent]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Consequent]' role='dimension' type='nominal' />
+            <column datatype='real' name='[RuleConfidence%]' role='measure' type='quantitative' />
+            <column-instance column='[Antecedent]' derivation='None' name='[none:Antecedent:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Consequent]' derivation='None' name='[none:Consequent:nk]' pivot='key' type='nominal' />
+            <column-instance column='[RuleConfidence%]' derivation='Sum' name='[sum:RuleConfidence%:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0zcq24g08m8wyt1gjly9u1ofz7nb].[none:Antecedent:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Antecedent:nk]' />
+              <groupfilter function='member' level='[none:Antecedent:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <natural-sort column='[federated.0zcq24g08m8wyt1gjly9u1ofz7nb].[none:Consequent:nk]' direction='DESC' />
+          <slices>
+            <column>[federated.0zcq24g08m8wyt1gjly9u1ofz7nb].[none:Antecedent:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0zcq24g08m8wyt1gjly9u1ofz7nb].[sum:RuleConfidence%:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#59a14f' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0zcq24g08m8wyt1gjly9u1ofz7nb].[none:Antecedent:nk]</rows>
+        <cols>[federated.0zcq24g08m8wyt1gjly9u1ofz7nb].[none:Consequent:nk]</cols>
+      </table>
+      <simple-id uuid='{B0B64F75-C345-444B-AB1F-CD33F3C69BAC}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0zcq24g08m8wyt1gjly9u1ofz7nb].[sum:RuleConfidence%:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BEC16F4C-6EEC-46BC-8A72-26E0E70BE55E}' />
+    </window>
+  </windows>
+</workbook>
